@@ -77,4 +77,13 @@ class FrameElement
             return $this->frameElementType . "$" . $this->frame . "$" . $this->id;
         }
     }
+
+    /**
+     * Setter for the id
+     * @param $id string New id of the frame element
+     */
+    public function setId(string $id): void
+    {
+        $this->id = $id;
+    }
 }
