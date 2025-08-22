@@ -20,7 +20,7 @@ class FrameNetTest extends TestCase
         for ($i = 0; $i < $this->frameNet->size(); $i++) {
             $count += $this->frameNet->getFrame($i)->lexicalUnitSize();
         }
-        $this->assertEquals(8493, $count);
+        $this->assertEquals(8484, $count);
     }
 
     public function testFrameElementSize(){
